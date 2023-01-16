@@ -1,0 +1,55 @@
+main {
+    display: flex;
+    width: 100%;
+    margin-top: 21px;
+}
+
+.search-container {
+    margin: 0px 21px 21px 21px;
+    width: 444px;
+}
+
+.btn {
+    width: 100%;
+    margin-bottom: 21px;
+}
+
+.city-list {
+    border-top: solid grey 3px;
+    padding-bottom: 12px;
+    
+}
+
+
+.weather-container {
+    display: flex;
+    width: 96%;
+    flex-direction: column;
+    margin-left: 54px;
+    margin-right: 33px
+}
+
+.weather {
+    border: solid black 2px;
+    padding-left: 10px;
+    
+}
+.city-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.forecast {
+    margin-top: 33px;
+
+}
+
+.forecast-list {
+    display: flex;
+    margin: none;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+
