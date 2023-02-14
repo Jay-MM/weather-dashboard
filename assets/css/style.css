@@ -47,9 +47,48 @@ main {
 
 .forecast-list {
     display: flex;
-    margin: none;
     justify-content: space-between;
     flex-direction: row;
+    max-width: 30%;
     
 }
 
+.recentSearches:hover {
+    cursor: pointer;
+    background-color: rgb(98, 124, 143);
+    color: rgb(253, 253, 253);
+}
+
+
+/* .weather-icon {
+    margin-left: 25px;
+    height: 80px;
+    width: 80px;
+    border: none;
+} */
+
+
+.fiveDayInfo {
+    background-color: rgb(33, 33, 65);
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    flex-direction: column;
+    margin-top: 20px;
+    color: white;
+    height: 250px;
+    width: 180px;
+    list-style: none;
+}
+
+h4 {
+    margin-bottom: 5px;
+    border-bottom: solid white 2px;
+    font-weight: bold;
+}
+
+.forecast-icon {
+    height: 50px;
+    width: 50px;
+}
